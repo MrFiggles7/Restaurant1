@@ -12,25 +12,26 @@
 
 
   &-header{
+    margin-top: 16rem;
     display: inline-block;
   }
 
 
   &--eat{
-    transform: translateX(-225rem);
+    transform: translateX(-270rem);
     transition: all 1.2s ease-out;
     animation-play-state: paused;
   }
 
   &--drink{
-    transform: translateX(-225rem);
-    transition: all 1.5s;
+    transform: translateX(-270rem);
+    transition: all 1.2s;
     animation-play-state: paused;
   }
 
   &--visit{
-    transform: translateX(-225rem);
-    transition: all 1.5s;
+    transform: translateX(-270rem);
+    transition: all 1.2s;
     animation-play-state: paused;
   }
 

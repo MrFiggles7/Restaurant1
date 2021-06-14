@@ -150,7 +150,7 @@ body {
   height: 100vh;
   z-index: 0;
   background-image: url("../../img/pooja-chaudhary-q66grqqHpDQ-unsplash.jpg");
-  opacity: .95;
+  opacity: .9;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -211,18 +211,19 @@ body {
   background-color: #eeeeee;
   text-align: center; }
   .menu-options__page-header {
+    margin-top: 16rem;
     display: inline-block; }
   .menu-options__page--eat {
-    transform: translateX(-225rem);
+    transform: translateX(-270rem);
     transition: all 1.2s ease-out;
     animation-play-state: paused; }
   .menu-options__page--drink {
-    transform: translateX(-225rem);
-    transition: all 1.5s;
+    transform: translateX(-270rem);
+    transition: all 1.2s;
     animation-play-state: paused; }
   .menu-options__page--visit {
-    transform: translateX(-225rem);
-    transition: all 1.5s;
+    transform: translateX(-270rem);
+    transition: all 1.2s;
     animation-play-state: paused; }
   .menu-options__page--list {
     padding: 6rem 0; }
