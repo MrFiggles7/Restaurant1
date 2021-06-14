@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Website</title>
+    <link rel="stylesheet" href="sass/main.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Poiret One">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Forum">
+    <link rel="stylesheet" href="fonts/flaticon.css">
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous">
+    </script>
+    <script src="Javascript/code.js"></script>
+</head>
+<body>
+
+
+<header class="header">
+    <div class="topper topper--header">
+        <div class="topper__logo topper--header__logo">
+            <h2 class="heading-secondary topper-heading"><a href="#">Juniper</a></h2>
+        </div>
+
+        <div class="topper__list topper--header__list">
+            <ul>
+                <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Home</a></li>
+                <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Gallery</a>
+                </li>
+                <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Story</a>
+                </li>
+                <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Visit</a>
+                </li>
+                <li class="topper-icon topper-text topper__list--item topper--header__list--item"><a href="#"
+                                                                                                     class="flaticon-045-facebook"></a>
+                </li>
+                <li class="topper-icon topper-text topper__list--item topper--header__list--item"><a href="#"
+                                                                                                     class="flaticon-034-instagram"></a>
+                </li>
+                <li class="topper-icon topper-text topper__list--item topper--header__list--item"><a href="#"
+                                                                                                     class="flaticon-013-twitter-1"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-textbox">
+        <h1 class="heading-primary">
+            <div class="row">
+                <div class="col-1-of-3">
+                    <input type="radio" class="menu-options" id="menu-options__eat">
+
+                    <label for="menu-options__eat">
+                        <span class="heading-primary--main">Eat</span>
+                    </label>
+                </div>
+                <div class="col-1-of-3">
+                    <input type="radio" class="menu-options" name="menu-options" id="menu-options__drink">
+
+                    <label for=menu-options__drink>
+                        <span class="heading-primary--main">Drink</span>
+                    </label>
+                </div>
+                <div class="col-1-of-3">
+                    <input type="radio" class="menu-options" name="menu-options" id="menu-options__visit">
+
+                    <label for="menu-options__visit">
+                        <span class="heading-primary--main">Visit</span>
+                    </label>
+                </div>
+            </div>
+            <span class="heading-primary--sub">
+                123 demo street - new york, ny -
+                <a href="tel:555-555-5555"><span class="heading-primary--sub__phone"> (555)555-5555</span></a>
+            </span>
+        </h1>
+    </div>
+</header>
+
+<main>
+    <section class="menu-options__page menu-options__page--eat">
+
+        <div class="topper topper--menupage">
+            <div class="topper__logo topper--menupage__logo">
+                <h2 class="heading-secondary topper-heading"><a href="#">Juniper</a></h2>
+            </div>
+
+            <div class="topper__list topper--menupage__list">
+                <ul>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="">Home</a></li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-text">Gallery</a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-text">Story</a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-text">Visit</a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-icon flaticon-045-facebook"></a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-icon flaticon-034-instagram"></a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-icon flaticon-013-twitter-1"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-options__page-header">
+            <h2 class="heading-menu">
+                <div class="heading-menu--main">
+                    - Entr&eacute;es -
+                </div>
+                <div class="heading-menu--sub">
+                    Modern dishes that capture the flavors of the season
+                </div>
+            </h2>
+
+        </div>
+
+                <div class="row">
+                    <div class="menu-options__page--list">
+                    <div class="col-1-of-3">
+                        <h3 class="menu-options__page--list-heading list__text-heading">
+                            Garden
+                        </h3>
+                        <ul>
+                            <div class="menu-options__page--list-group">
+                                <li class="menu-options__page--list-option list__text-primary">
+                                    - Saut&eacute;ed swiss chard -
+                                </li>
+                                <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $7
+                        </span>
+                            </div>
+                            <li class="menu-options__page--list-option list__text-primary">
+                                - Hen of the Woods -
+                            </li>
+                            <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $8
+                        </span>
+                            <li class="menu-options__page--list-option list__text-primary">
+                                - Roasted Romanesco -
+                            </li>
+                            <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $9
+                        </span>
+                        </ul>
+                    </div>
+                    <div class="col-1-of-3">
+                        <h3 class="menu-options__page--list-heading list__text-heading">
+                            Sea
+                        </h3>
+                        <ul>
+                            <div class="menu-options__page--list-group">
+                                <li class="menu-options__page--list-option list__text-primary">
+                                    - Saut&eacute;ed swiss chard -
+                                </li>
+                                <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $7
+                        </span>
+                            </div>
+                            <li class="menu-options__page--list-option list__text-primary">
+                                - Hen of the Woods -
+                            </li>
+                            <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $8
+                        </span>
+                            <li class="menu-options__page--list-option list__text-primary">
+                                - Roasted Romanesco -
+                            </li>
+                            <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $9
+                        </span>
+                        </ul>
+                    </div>
+                    <div class="col-1-of-3">
+                        <h3 class="menu-options__page--list-heading list__text-heading">
+                            Land
+                        </h3>
+                        <ul>
+                            <div class="menu-options__page--list-group">
+                                <li class="menu-options__page--list-option list__text-primary">
+                                    - Saut&eacute;ed swiss chard -
+                                </li>
+                                <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $7
+                        </span>
+                            </div>
+                            <li class="menu-options__page--list-option list__text-primary">
+                                - Hen of the Woods -
+                            </li>
+                            <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $8
+                        </span>
+                            <li class="menu-options__page--list-option list__text-primary">
+                                - Roasted Romanesco -
+                            </li>
+                            <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $9
+                        </span>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+
+        <div class="row">
+            <div class="menu-options__page--list">
+                <div class="col-1-of-3">
+                    <h3 class="menu-options__page--list-heading list__text-heading">
+                        Garden
+                    </h3>
+                    <ul>
+                        <div class="menu-options__page--list-group">
+                            <li class="menu-options__page--list-option list__text-primary">
+                                - Saut&eacute;ed swiss chard -
+                            </li>
+                            <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $7
+                        </span>
+                        </div>
+                        <li class="menu-options__page--list-option list__text-primary">
+                            - Hen of the Woods -
+                        </li>
+                        <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $8
+                        </span>
+                        <li class="menu-options__page--list-option list__text-primary">
+                            - Roasted Romanesco -
+                        </li>
+                        <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $9
+                        </span>
+                    </ul>
+                </div>
+                <div class="col-1-of-3">
+                    <h3 class="menu-options__page--list-heading list__text-heading">
+                        Sea
+                    </h3>
+                    <ul>
+                        <div class="menu-options__page--list-group">
+                            <li class="menu-options__page--list-option list__text-primary">
+                                - Saut&eacute;ed swiss chard -
+                            </li>
+                            <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $7
+                        </span>
+                        </div>
+                        <li class="menu-options__page--list-option list__text-primary">
+                            - Hen of the Woods -
+                        </li>
+                        <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $8
+                        </span>
+                        <li class="menu-options__page--list-option list__text-primary">
+                            - Roasted Romanesco -
+                        </li>
+                        <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $9
+                        </span>
+                    </ul>
+                </div>
+                <div class="col-1-of-3">
+                    <h3 class="menu-options__page--list-heading list__text-heading">
+                        Land
+                    </h3>
+                    <ul>
+                        <div class="menu-options__page--list-group">
+                            <li class="menu-options__page--list-option list__text-primary">
+                                - Saut&eacute;ed swiss chard -
+                            </li>
+                            <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $7
+                        </span>
+                        </div>
+                        <li class="menu-options__page--list-option list__text-primary">
+                            - Hen of the Woods -
+                        </li>
+                        <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $8
+                        </span>
+                        <li class="menu-options__page--list-option list__text-primary">
+                            - Roasted Romanesco -
+                        </li>
+                        <span class="text-primary">
+                            garlic, balsamic reduction<br>
+                            $9
+                        </span>
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </section>
+
+
+    <div class="menu-options__page menu-options__page--drink">
+        <div class="topper topper--menupage">
+            <div class="topper__logo topper--menupage__logo">
+                <h2 class="heading-secondary topper-heading"><a href="#">Juniper</a></h2>
+            </div>
+
+            <div class="topper__list topper--menupage__list">
+                <ul>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-text">Home</a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-text">Gallery</a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-text">Story</a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-text">Visit</a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-icon flaticon-045-facebook"></a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-icon flaticon-034-instagram"></a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                               class="topper-icon flaticon-013-twitter-1"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-options__page-header">
+            <h2 class="heading-menu">
+                <div class="heading-menu--main">
+                    - Libations -
+                </div>
+                <div class="heading-menu--sub">
+                    Please ask our sommelier about wine pairings
+                </div>
+            </h2>
+        </div>
+    </div>
+
+
+    <div class="menu-options__page menu-options__page--visit">
+        <div class="topper topper--menupage">
+            <div class="topper__logo topper--menupage__logo">
+                <h2 class="heading-secondary topper-heading"><a href="#">Juniper</a></h2>
+            </div>
+
+            <div class="topper__list topper--menupage__list">
+                <ul>
+                    <li class="topper__list--item topper--menupage__list--item"><a href="#" class="topper-text">Home</a>
+                    </li>
+                    <li class="topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                   class="topper-text">Gallery</a></li>
+                    <li class="topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                   class="topper-text">Story</a></li>
+                    <li class="topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                   class="topper-text">Visit</a></li>
+                    <li class="topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                   class="topper-icon flaticon-045-facebook"></a>
+                    </li>
+                    <li class="topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                   class="topper-icon flaticon-034-instagram"></a>
+                    </li>
+                    <li class="topper__list--item topper--menupage__list--item"><a href="#"
+                                                                                   class="topper-icon flaticon-013-twitter-1"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-options__page-header">
+            <h2 class="heading-menu">
+                <div class="heading-menu--main">
+                    Make a Reservation
+                </div>
+                <div class="heading-menu--sub">
+                    Use this Text Block to talk about your booking policies. Learn more about the below OpenTable Block
+                    here.
+                </div>
+            </h2>
+        </div>
+    </div>
+</main>
+
+<section class="footer">
+    <div class="footer-container row">
+        <div class="col-1-of-3">
+            <h3 class="heading-tertiary">
+                Contact
+            </h3>
+            <br>
+            <span class="footer__text">
+                 123 Demo Street<br>
+                New York, NY 12345<br>
+                email@example.com<br>
+                (555)555-5555
+            </span>
+
+        </div>
+        <div class="col-1-of-3">
+
+            <h2 class="heading-secondary">Juniper</h2><br>
+            <li class="icon footer__icon"><a href="#" class="topper-icon flaticon-045-facebook"></a></li>
+            <li class="icon footer__icon"><a href="#" class="topper-icon flaticon-034-instagram"></a></li>
+            <li class="icon footer__icon"><a href="#" class="topper-icon flaticon-013-twitter-1"></a></li>
+            <br>
+            <span class="footer__text">
+                 Icon's made by:
+                <a href="https://www.flaticon.com/packs/social-16?k=1623356862808"
+                   class="footer__link">Pixel Perfect</a><br>
+                Website coded by:
+                <a href="#" class="footer__link">Riley Johnson</a><br>
+                Design inspired by:
+                <a href="https://juniper-demo.squarespace.com/eat"
+                   class="footer__link">SquareSpace Juniper Template</a>
+            </span>
+        </div>
+        <div class="col-1-of-3">
+            <h3 class="heading-tertiary">
+                Hours
+            </h3>
+            <br>
+            <span class="footer__text">
+                Mon-Wed 6-11<br>
+                Thu-Sat 4-12<br>
+                Sun 3-10<br>
+
+                <a href="#" class="footer__link">Make a reservation</a>
+            </span>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>

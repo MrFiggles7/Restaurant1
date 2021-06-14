@@ -1,0 +1,58 @@
+.header{
+  //position: absolute;
+  position: relative;
+  height: 100vh;
+  //width: 100%;
+  z-index: 0;
+
+  //top: 0;
+  //left: 0;
+
+  background-image: url("../../img/pooja-chaudhary-q66grqqHpDQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-color: grey;
+  text-align: center;
+
+  &::after{
+    content: "";
+    background-image: linear-gradient(rgba($color-red, .2), rgba($color-red, .2));
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+
+    top: 0;
+    left: 0;
+  }
+
+  &-textbox{
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 52.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+
+//FUNCTIONALITY
+
+#menu{
+
+  &-options {
+
+    &__eat{
+      &:checked{
+
+      }
+      &:checked ~ .menu-options__page--eat{
+        opacity: 1;
+      }
+    }
+  }
+}

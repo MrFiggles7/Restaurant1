@@ -1,0 +1,60 @@
+.menu-options__page{
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  opacity: 1;
+  z-index: 2000;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  background-color: #eeeeee;
+  text-align: center;
+
+
+  &-header{
+    display: inline-block;
+  }
+
+
+  &--eat{
+    transform: translateX(-225rem);
+    transition: all 1.2s ease-out;
+    animation-play-state: paused;
+  }
+
+  &--drink{
+    transform: translateX(-225rem);
+    transition: all 1.5s;
+    animation-play-state: paused;
+  }
+
+  &--visit{
+    transform: translateX(-225rem);
+    transition: all 1.5s;
+    animation-play-state: paused;
+  }
+
+  &--list{
+
+    padding: 6rem 0;
+
+
+    &-heading{
+      padding: 1.5rem 0;
+    }
+
+    &-group{
+
+    }
+
+    &-option{
+      list-style: none;
+      padding: 1rem;
+    }
+  }
+
+
+
+
+
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70ef86d3-2ca3-4e2c-8d3d-160ff495ddfe" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="sassystyle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tja3UiSrJqRwFnAm7WvTtP9zid" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\muzic\Desktop\CSSUdemy\5\Restauraunt1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\muzic\Desktop\CSSUdemy\5\Restauraunt1\img" />
+      <recent name="C:\Users\muzic\Desktop\CSSUdemy\5\Restauraunt1\sass" />
+      <recent name="C:\Users\muzic\Desktop\CSSUdemy\5\Restauraunt1" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70ef86d3-2ca3-4e2c-8d3d-160ff495ddfe" name="Default Changelist" comment="" />
+      <created>1623284752265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623284752265</updated>
+      <workItem from="1623284753372" duration="13988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2094" y="353" key="EditFileWatcherDialog" timestamp="1623284782212">
+      <screen x="1920" y="-366" width="1080" height="1880" />
+    </state>
+    <state x="2094" y="353" key="EditFileWatcherDialog/0.0.1920.1040/1920.-366.1080.1880@1920.-366.1080.1880" timestamp="1623284782212" />
+    <state x="2328" y="482" key="save.project.as.template.dialog" timestamp="1623286458066">
+      <screen x="1920" y="-366" width="1080" height="1880" />
+    </state>
+    <state x="2328" y="482" key="save.project.as.template.dialog/0.0.1920.1040/1920.-366.1080.1880@1920.-366.1080.1880" timestamp="1623286458066" />
+  </component>
+</project>

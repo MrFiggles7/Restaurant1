@@ -1,0 +1,39 @@
+.footer{
+  //position: absolute;
+  //top: 100%;
+  z-index: 5000;
+  min-height: 20rem;
+  display: block;
+  //left: 0;
+  //right: 0;
+  text-align: center;
+  background-color: $color-white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+
+  &-container{
+
+  }
+
+  &__link{
+    color: $color-red-grey-light;
+  }
+
+  &__icon{
+    transform: translateX(-.5rem);
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;
+    padding-left: 0;
+
+    a,
+    a:visited,
+    a:focus,
+    a:active{
+      color: $color-black;
+    }
+  }
+
+
+}
