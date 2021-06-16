@@ -279,7 +279,8 @@ body {
   font-size: 4rem; }
 .topper-text {
   font-size: 2.2rem;
-  font-weight: 600; }
+  font-weight: 600;
+  transition: all .1s; }
   .topper-text:hover {
     display: inline-block;
     transform: scale(1.1);
