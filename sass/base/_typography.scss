@@ -28,7 +28,7 @@ body{
       &:hover {
         cursor: pointer;
         transform: translateY(-.5rem) scale(1.03);
-        border-bottom: 1px solid $color-black;
+        border-bottom: none;
         text-shadow: .5rem 1rem .5rem $color-black;
       }
     }
