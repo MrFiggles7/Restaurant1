@@ -1,4 +1,4 @@
-.topper{
+.topper {
   position: fixed;
   display: block;
   top: 0;
@@ -8,7 +8,7 @@
   z-index: 1000;
 
 
-  &__logo{
+  &__logo {
     position: absolute;
     top: 50%;
     left: 7%;
@@ -17,20 +17,21 @@
   }
 
 
-  &__list{
+  &__list {
     display: inline-block;
     position: absolute;
     top: 50%;
     right: 7%;
     transform: translate(0, -50%);
-    ul{
+
+    ul {
       list-style: none;
     }
 
-    &--item{
+    &--item {
       display: inline-block;
 
-      &:not(:last-child){
+      &:not(:last-child) {
         padding-right: 1rem;
       }
     }

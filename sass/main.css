@@ -50,7 +50,7 @@ body {
     .heading-primary--main:hover {
       cursor: pointer;
       transform: translateY(-0.5rem) scale(1.03);
-      border-bottom: 1px solid #000000;
+      border-bottom: none;
       text-shadow: 0.5rem 1rem 0.5rem #000000; }
   .heading-primary--sub {
     display: inline-block;

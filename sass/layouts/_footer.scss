@@ -1,4 +1,4 @@
-.footer{
+.footer {
   //position: absolute;
   //top: 100%;
   z-index: 5000;
@@ -12,15 +12,15 @@
   padding-bottom: 4rem;
 
 
-  &-container{
+  &-container {
 
   }
 
-  &__link{
+  &__link {
     color: $color-red-grey-light;
   }
 
-  &__icon{
+  &__icon {
     transform: translateX(-.5rem);
     list-style: none;
     display: inline-block;
@@ -30,7 +30,7 @@
     a,
     a:visited,
     a:focus,
-    a:active{
+    a:active {
       color: $color-black;
     }
   }

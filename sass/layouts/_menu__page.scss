@@ -1,4 +1,4 @@
-.menu-options__page{
+.menu-options__page {
   position: absolute;
   min-height: 100vh;
   width: 100%;
@@ -11,51 +11,48 @@
   text-align: center;
 
 
-  &-header{
+  &-header {
     margin-top: 16rem;
     display: inline-block;
   }
 
 
-  &--eat{
+  &--eat {
     transform: translateX(-270rem);
     transition: all 1.2s ease-out;
     animation-play-state: paused;
   }
 
-  &--drink{
+  &--drink {
     transform: translateX(-270rem);
     transition: all 1.2s;
     animation-play-state: paused;
   }
 
-  &--visit{
+  &--visit {
     transform: translateX(-270rem);
     transition: all 1.2s;
     animation-play-state: paused;
   }
 
-  &--list{
+  &--list {
 
     padding: 6rem 0;
 
 
-    &-heading{
+    &-heading {
       padding: 1.5rem 0;
     }
 
-    &-group{
+    &-group {
 
     }
 
-    &-option{
+    &-option {
       list-style: none;
       padding: 1rem;
     }
   }
-
-
-
 
 
 }

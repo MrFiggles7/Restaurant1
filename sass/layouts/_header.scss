@@ -1,4 +1,4 @@
-.header{
+.header {
   //position: absolute;
   position: relative;
   height: 100vh;
@@ -17,7 +17,7 @@
   background-color: grey;
   text-align: center;
 
-  &::after{
+  &::after {
     content: "";
     background-image: linear-gradient(rgba($color-red, .2), rgba($color-red, .2));
     position: absolute;
@@ -29,7 +29,7 @@
     left: 0;
   }
 
-  &-textbox{
+  &-textbox {
     display: block;
     width: 100%;
     position: absolute;
@@ -43,15 +43,16 @@
 
 //FUNCTIONALITY
 
-#menu{
+#menu {
 
   &-options {
 
-    &__eat{
-      &:checked{
+    &__eat {
+      &:checked {
 
       }
-      &:checked ~ .menu-options__page--eat{
+
+      &:checked ~ .menu-options__page--eat {
         opacity: 1;
       }
     }

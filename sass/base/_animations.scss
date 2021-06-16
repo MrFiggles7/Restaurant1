@@ -1,21 +1,21 @@
 @keyframes gradientMove {
-  0%{
+  0% {
     background-image: linear-gradient(to top, rgba($color-black, 0), transparent);
   }
-  50%{
+  50% {
     background-image: linear-gradient(to top, rgba($color-black, .3), transparent 60%);
   }
-  100%{
+  100% {
     background-image: linear-gradient(to top, rgba($color-black, .6) 10%, transparent 60%);
   }
 
 }
 
-@keyframes slideInLeft{
-  0%{
+@keyframes slideInLeft {
+  0% {
     transform: translateX(-500rem);
   }
-  100%{
+  100% {
     transform: translateX(0);
   }
 }

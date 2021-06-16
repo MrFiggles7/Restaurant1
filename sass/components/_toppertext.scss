@@ -1,46 +1,46 @@
-.topper{
+.topper {
   a,
   a:visited,
   a:focus,
-  a:active{
+  a:active {
     text-decoration: none;
   }
 
-  &--header{
+  &--header {
     a,
     a:visited,
     a:focus,
-    a:active{
+    a:active {
       color: $color-white;
     }
   }
 
-  &--menupage{
+  &--menupage {
     a,
     a:visited,
     a:focus,
-    a:active{
+    a:active {
       color: $color-black;
     }
   }
 
 
-  &-heading{
+  &-heading {
     font-size: 4rem;
   }
 
-  &-text{
+  &-text {
     font-size: 2.2rem;
     font-weight: 600;
 
-    &:hover{
+    &:hover {
       display: inline-block;
       transform: scale(1.1);
       text-shadow: .25px .25px .25px $color-white;
     }
   }
 
-  &-icon{
+  &-icon {
     font-weight: 800;
   }
 
