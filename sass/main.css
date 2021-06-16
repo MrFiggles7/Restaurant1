@@ -46,7 +46,11 @@ body {
     border-bottom: 1px solid #eee;
     -webkit-transition: all .2s;
     background-repeat: no-repeat;
-    background-position-y: 15rem; }
+    background-position-y: 15rem;
+    text-decoration: none;
+    color: #eee; }
+    .heading-primary--main a {
+      pointer-events: none; }
     .heading-primary--main:hover {
       cursor: pointer;
       transform: translateY(-0.5rem) scale(1.03);
@@ -91,7 +95,6 @@ body {
   font-family: "Forum", Jura, EB Garamond; }
 
 .menu-options {
-  display: none;
   pointer-events: none; }
 
 .footer__text {
@@ -157,6 +160,10 @@ body {
   -webkit-background-size: cover;
   background-color: grey;
   text-align: center; }
+  .header:target {
+    position: relative; }
+  .header-anchor a {
+    pointer-events: none; }
   .header::after {
     content: "";
     background-image: linear-gradient(rgba(30, 11, 0, 0.2), rgba(30, 11, 0, 0.2));
@@ -173,9 +180,6 @@ body {
     top: 52.5%;
     left: 50%;
     transform: translate(-50%, -50%); }
-
-#menu-options__eat:checked ~ .menu-options__page--eat {
-  opacity: 1; }
 
 .footer {
   z-index: 5000;
@@ -215,16 +219,25 @@ body {
     display: inline-block; }
   .menu-options__page--eat {
     transform: translateX(-270rem);
-    transition: all 1.2s ease-out;
-    animation-play-state: paused; }
+    transition: all 1.2s ease-out; }
+    .menu-options__page--eat:target {
+      transform: translateX(0);
+      pointer-events: all;
+      position: relative; }
   .menu-options__page--drink {
     transform: translateX(-270rem);
-    transition: all 1.2s;
-    animation-play-state: paused; }
+    transition: all 1.2s; }
+    .menu-options__page--drink:target {
+      transform: translateX(0);
+      pointer-events: all;
+      position: relative; }
   .menu-options__page--visit {
     transform: translateX(-270rem);
-    transition: all 1.2s;
-    animation-play-state: paused; }
+    transition: all 1.2s; }
+    .menu-options__page--visit:target {
+      transform: translateX(0);
+      pointer-events: all;
+      position: relative; }
   .menu-options__page--list {
     padding: 6rem 0; }
     .menu-options__page--list-heading {

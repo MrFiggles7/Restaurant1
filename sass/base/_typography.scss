@@ -23,6 +23,12 @@ body {
       -webkit-transition: all .2s;
       background-repeat: no-repeat;
       background-position-y: 15rem;
+      text-decoration: none;
+      color: $color-white;
+
+      a{
+        pointer-events: none;
+      }
 
 
       &:hover {
@@ -92,7 +98,7 @@ body {
 }
 
 .menu-options {
-  display: none;
+  //display: none;
   pointer-events: none;
 }
 

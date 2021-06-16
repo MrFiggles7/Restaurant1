@@ -17,6 +17,14 @@
   background-color: grey;
   text-align: center;
 
+  &:target{
+    position: relative;
+  }
+
+  &-anchor a{
+    pointer-events: none;
+  }
+
   &::after {
     content: "";
     background-image: linear-gradient(rgba($color-red, .2), rgba($color-red, .2));
@@ -41,20 +49,3 @@
 }
 
 
-//FUNCTIONALITY
-
-#menu {
-
-  &-options {
-
-    &__eat {
-      &:checked {
-
-      }
-
-      &:checked ~ .menu-options__page--eat {
-        opacity: 1;
-      }
-    }
-  }
-}
