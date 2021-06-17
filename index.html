@@ -19,66 +19,22 @@
 <body>
 
 
-<header id="header" class="header">
-    <div class="topper topper--header">
-        <div class="topper__logo topper--header__logo">
-            <h2 class="heading-secondary topper-heading"><a href="#home">Juniper</a></h2>
-        </div>
+<header>
 
-        <div class="topper__list topper--header__list">
-            <ul>
-                <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Home</a></li>
-                <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Gallery</a>
-                </li>
-                <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Story</a>
-                </li>
-                <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Visit</a>
-                </li>
-                <li class="topper-icon topper-text topper__list--item topper--header__list--item"><a href="#"
-                                                                                                     class="flaticon-045-facebook"></a>
-                </li>
-                <li class="topper-icon topper-text topper__list--item topper--header__list--item"><a href="#"
-                                                                                                     class="flaticon-034-instagram"></a>
-                </li>
-                <li class="topper-icon topper-text topper__list--item topper--header__list--item"><a href="#"
-                                                                                                     class="flaticon-013-twitter-1"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="header-textbox">
-        <h1 class="heading-primary">
-            <div class="row">
-                <div class="col-1-of-3">
-                    <a href="#eat" class="menu-options__eat">
-                        <span class="heading-primary--main">Eat</span>
-                    </a>
-                </div>
-                <div class="col-1-of-3">
-                    <a href="#drink" class="menu-options__drink">
-                        <span class="heading-primary--main">Drink</span>
-                    </a>
-                </div>
-                <div class="col-1-of-3">
-                    <a href="#visit" class="menu-options__visit">
-                        <span class="heading-primary--main">Visit</span>
-                    </a>
-                </div>
-            </div>
-            <span class="heading-primary--sub">
-                123 demo street - new york, ny -
-                <a href="tel:555-555-5555"><span class="heading-primary--sub__phone"> (555)555-5555</span></a>
-            </span>
-        </h1>
-    </div>
-</header>
+    <input type="checkbox" id="menu-options--checkbox__eat"
+           name="menu-options--checkbox__eat" autocomplete="off">
+    <input type="checkbox" id="menu-options--checkbox__drink"
+           name="menu-options--checkbox__drink" autocomplete="off">
+    <input type="checkbox" id="menu-options--checkbox__visit"
+           name="menu-options--checkbox__visit" autocomplete="off">
+    <input type="checkbox" id="menu-options--checkbox__home"
+           name="menu-options--checkbox__home" checked="checked" autocomplete="off">
 
-<main>
+
     <section id="eat" class="menu-options__page menu-options__page--eat">
-
         <div class="topper topper--menupage">
             <div class="topper__logo topper--menupage__logo">
-                <h2 class="heading-secondary topper-heading"><a href="#">Juniper</a></h2>
+                <h2 class="heading-secondary topper-heading"><a href="#header">Juniper</a></h2>
             </div>
 
             <div class="topper__list topper--menupage__list">
@@ -215,8 +171,7 @@
         </div>
     </section>
 
-
-    <div id="drink" class="menu-options__page menu-options__page--drink">
+    <section id="drink" class="menu-options__page menu-options__page--drink">
         <div class="topper topper--menupage">
             <div class="topper__logo topper--menupage__logo">
                 <h2 class="heading-secondary topper-heading"><a href="#">Juniper</a></h2>
@@ -258,10 +213,10 @@
                 </div>
             </h2>
         </div>
-    </div>
+    </section>
 
 
-    <div id="visit" class="menu-options__page menu-options__page--visit">
+    <section id="visit" class="menu-options__page menu-options__page--visit">
         <div class="topper topper--menupage">
             <div class="topper__logo topper--menupage__logo">
                 <h2 class="heading-secondary topper-heading"><a href="#">Juniper</a></h2>
@@ -300,7 +255,67 @@
                 </div>
             </h2>
         </div>
-    </div>
+    </section>
+
+    <section id="header" class="header">
+        <div class="topper topper--header">
+            <div class="topper__logo topper--header__logo">
+                <h2 class="heading-secondary topper-heading"><a href="#header" class="logo-click">Juniper</a></h2>
+            </div>
+
+            <div class="topper__list topper--header__list">
+                <ul>
+                    <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Home</a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--header__list--item"><a href="#"
+                                                                                             class="">Gallery</a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Story</a>
+                    </li>
+                    <li class="topper-text topper__list--item topper--header__list--item"><a href="#" class="">Visit</a>
+                    </li>
+                    <li class="topper-icon topper-text topper__list--item topper--header__list--item"><a href="#"
+                                                                                                         class="flaticon-045-facebook"></a>
+                    </li>
+                    <li class="topper-icon topper-text topper__list--item topper--header__list--item"><a href="#"
+                                                                                                         class="flaticon-034-instagram"></a>
+                    </li>
+                    <li class="topper-icon topper-text topper__list--item topper--header__list--item"><a href="#"
+                                                                                                         class="flaticon-013-twitter-1"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-textbox">
+            <h1 class="heading-primary">
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <a href="#eat" class="menu-options__eat heading-primary--main">Eat</a>
+                        <label for="menu-options--checkbox__eat" class=""></label>
+
+                    </div>
+                    <div class="col-1-of-3">
+                        <a href="#drink" class="menu-options__drink">
+                            <span class="heading-primary--main">Drink</span>
+                        </a>
+                    </div>
+                    <div class="col-1-of-3">
+                        <a href="#visit" class="menu-options__visit">
+                            <span class="heading-primary--main">Visit</span>
+                        </a>
+                    </div>
+                </div>
+                <span class="heading-primary--sub">
+                123 demo street - new york, ny -
+                <a href="tel:555-555-5555"><span class="heading-primary--sub__phone"> (555)555-5555</span></a>
+            </span>
+            </h1>
+        </div>
+    </section>
+</header>
+
+<main>
+
 </main>
 
 <section class="footer">

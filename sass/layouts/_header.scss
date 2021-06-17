@@ -17,9 +17,6 @@
   background-color: grey;
   text-align: center;
 
-  &:target{
-    position: relative;
-  }
 
   &-anchor a{
     pointer-events: none;

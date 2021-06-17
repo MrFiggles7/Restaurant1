@@ -16,43 +16,6 @@
     display: inline-block;
   }
 
-
-  &--eat {
-    transform: translateX(-270rem);
-    transition: all 1.2s ease-out;
-    //animation-play-state: paused;
-
-     &:target{
-       transform: translateX(0);
-       pointer-events: all;
-       position: relative;
-     }
-  }
-
-  &--drink {
-    transform: translateX(-270rem);
-    transition: all 1.2s;
-    //animation-play-state: paused;
-
-    &:target{
-      transform: translateX(0);
-      pointer-events: all;
-      position: relative;
-    }
-  }
-
-  &--visit {
-    transform: translateX(-270rem);
-    transition: all 1.2s;
-    //animation-play-state: paused;
-
-    &:target{
-      transform: translateX(0);
-      pointer-events: all;
-      position: relative;
-    }
-  }
-
   &--list {
 
     padding: 6rem 0;
