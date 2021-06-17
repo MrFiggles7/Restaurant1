@@ -344,7 +344,7 @@ body {
     left: 0;
   }*/ }
 
-#header:target {
+#home:target {
   position: relative; }
 
 /*# sourceMappingURL=main.css.map */
