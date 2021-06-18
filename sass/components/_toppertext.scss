@@ -43,6 +43,11 @@
 
   &-icon {
     font-weight: 800;
+    &:hover {
+      display: inline-block;
+      transform: scale(1.1);
+      text-shadow: .25px .25px .25px $color-white;
+    }
   }
 
 

@@ -8,14 +8,21 @@
   //top: 0;
   //left: 0;
 
-  background-image: url("../../img/pooja-chaudhary-q66grqqHpDQ-unsplash.jpg");
-  opacity: .9;
+ // background-image: url("../../img/florian-metzner-12IsagncQ7o-unsplash.jpg");
+  opacity: 1;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   -webkit-background-size: cover;
-  background-color: grey;
   text-align: center;
+
+  &__background-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: .9;
+  }
 
 
   &-anchor a{
@@ -40,9 +47,15 @@
     position: absolute;
     top: 52.5%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
   }
 
 }
+
+.heading-primary{
+  padding: 0 20rem;
+}
+
+
 
 

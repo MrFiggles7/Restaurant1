@@ -11,14 +11,38 @@
   text-align: center;
 
 
+  &--picture{
+
+    height: 45vh;
+    margin: 0 6rem;
+
+    img{
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    &__cocktail{
+      img{
+        object-position: 50% 85%;
+      }
+    }
+
+    &__visit{
+      img{
+        object-position: 50% 60%;
+      }
+    }
+  }
+
   &-header {
     margin-top: 16rem;
     display: inline-block;
   }
 
   &--list {
-
-    padding: 6rem 0;
+    padding: 8rem 32rem;
 
 
     &-heading {
@@ -27,11 +51,20 @@
 
     &-group {
 
+
+      &:not(:last-child){
+        margin-bottom: 2rem;
+      }
     }
 
     &-option {
       list-style: none;
       padding: 1rem;
+
+    }
+
+    &-footer{
+      padding: 8rem 0;
     }
   }
 

@@ -22,6 +22,7 @@ html {
   height: 100%; }
 
 body {
+  background-color: black;
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
@@ -35,31 +36,33 @@ body {
 .heading-primary {
   text-transform: uppercase;
   color: #eee;
-  letter-spacing: -.2rem; }
+  font-family: "Forum", Jura, EB Garamond; }
   .heading-primary--main {
     display: inline-block;
     font-size: 11rem;
     font-weight: 100;
-    line-height: 1.2;
+    line-height: 1;
+    letter-spacing: 0.2rem;
     padding: 0 .5rem;
-    text-shadow: 0 0.25rem 0.5rem #000000;
-    border-bottom: 1px solid #eee;
+    text-shadow: 0 0.25rem 0.25rem #000000;
+    border-bottom: 1px solid #eeeeee;
     -webkit-transition: all .2s;
     background-repeat: no-repeat;
     background-position-y: 15rem;
     text-decoration: none;
-    color: #eee; }
+    color: #eeeeee; }
     .heading-primary--main a {
       pointer-events: none; }
     .heading-primary--main:hover {
       cursor: pointer;
       transform: translateY(-0.5rem) scale(1.03);
-      border-bottom: none;
-      text-shadow: 0.5rem 1rem 0.5rem #000000; }
+      border-bottom: 1px solid rgba(238, 238, 238, 0);
+      text-shadow: 0.5rem 1rem 0.5rem #000000;
+      color: #eeeeee; }
   .heading-primary--sub {
     display: inline-block;
-    font-weight: 600;
-    font-size: 3.5rem;
+    font-weight: 100;
+    font-size: 2.8rem;
     text-shadow: 0 0.25rem 0.5rem #000000; }
     .heading-primary--sub a {
       display: inline-block;
@@ -75,24 +78,27 @@ body {
   font-family: "Forum", Jura, EB Garamond;
   display: inline-block; }
 .heading-tertiary {
+  padding: 2rem;
   font-size: 3rem;
   font-family: "Forum", Jura, EB Garamond;
-  display: inline-block; }
+  display: inline-block;
+  text-transform: uppercase; }
 
-.heading-menu--main {
-  font-weight: 100;
-  text-transform: uppercase;
-  font-size: 8rem;
-  color: #000000; }
-.heading-menu--sub {
-  font-weight: 600;
-  font-size: 2rem;
-  font-style: italic;
-  color: #000000; }
 .heading-menu {
   font-size: 6rem;
   font-weight: 100;
   font-family: "Forum", Jura, EB Garamond; }
+  .heading-menu--main {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 7rem;
+    color: #000000; }
+  .heading-menu--sub {
+    font-weight: 100;
+    font-size: 2rem;
+    font-style: italic;
+    color: #000000;
+    letter-spacing: -.05rem; }
 
 .menu-options {
   pointer-events: none; }
@@ -107,12 +113,12 @@ body {
   color: #000000; }
 
 .list__text-heading {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 100;
   font-family: "Forum", Jura, EB Garamond;
   text-transform: uppercase; }
 .list__text-primary {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 100;
   font-family: "Forum", Jura, EB Garamond;
   text-transform: uppercase; }
@@ -123,7 +129,7 @@ body {
   font-family: "Poiret One", sans-serif; }
 
 .row {
-  max-width: 146rem;
+  max-width: 180rem;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -152,14 +158,18 @@ body {
   position: relative;
   height: 100vh;
   z-index: 0;
-  background-image: url("../../img/pooja-chaudhary-q66grqqHpDQ-unsplash.jpg");
-  opacity: .9;
+  opacity: 1;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   -webkit-background-size: cover;
-  background-color: grey;
   text-align: center; }
+  .header__background-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: .9; }
   .header-anchor a {
     pointer-events: none; }
   .header::after {
@@ -177,7 +187,10 @@ body {
     position: absolute;
     top: 52.5%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -40%); }
+
+.heading-primary {
+  padding: 0 20rem; }
 
 .footer {
   z-index: 5000;
@@ -212,16 +225,32 @@ body {
   left: 0;
   background-color: #eeeeee;
   text-align: center; }
+  .menu-options__page--picture {
+    height: 45vh;
+    margin: 0 6rem; }
+    .menu-options__page--picture img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      width: 100%; }
+    .menu-options__page--picture__cocktail img {
+      object-position: 50% 85%; }
+    .menu-options__page--picture__visit img {
+      object-position: 50% 60%; }
   .menu-options__page-header {
     margin-top: 16rem;
     display: inline-block; }
   .menu-options__page--list {
-    padding: 6rem 0; }
+    padding: 8rem 32rem; }
     .menu-options__page--list-heading {
       padding: 1.5rem 0; }
+    .menu-options__page--list-group:not(:last-child) {
+      margin-bottom: 2rem; }
     .menu-options__page--list-option {
       list-style: none;
       padding: 1rem; }
+    .menu-options__page--list-footer {
+      padding: 8rem 0; }
 
 .topper {
   position: absolute;
@@ -229,7 +258,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 10%;
+  height: 10vh;
   z-index: 1000; }
   .topper__logo {
     position: absolute;
@@ -277,6 +306,10 @@ body {
     text-shadow: 0.25px 0.25px 0.25px #eee; }
 .topper-icon {
   font-weight: 800; }
+  .topper-icon:hover {
+    display: inline-block;
+    transform: scale(1.1);
+    text-shadow: 0.25px 0.25px 0.25px #eee; }
 
 .menu-options__page--eat {
   transform: translateX(-270rem);

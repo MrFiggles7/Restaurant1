@@ -9,22 +9,23 @@ body {
   &-primary {
     text-transform: uppercase;
     color: $color-white;
-    letter-spacing: -.2rem;
+    font-family: $logo-font;
 
 
     &--main {
       display: inline-block;
       font-size: 11rem;
       font-weight: 100;
-      line-height: 1.2;
+      line-height: 1;
+      letter-spacing: 0.2rem;
       padding: 0 .5rem;
-      text-shadow: 0 .25rem .5rem $color-black;
-      border-bottom: 1px solid $color-white;
+      text-shadow: 0 .25rem .25rem $color-black;
+      border-bottom: 1px solid rgba($color-white, 1);
       -webkit-transition: all .2s;
       background-repeat: no-repeat;
       background-position-y: 15rem;
       text-decoration: none;
-      color: $color-white;
+      color: rgba($color-white, 1);
 
       a{
         pointer-events: none;
@@ -34,16 +35,18 @@ body {
       &:hover {
         cursor: pointer;
         transform: translateY(-.5rem) scale(1.03);
-        border-bottom: none;
+        border-bottom: 1px solid rgba($color-white, 0);
         text-shadow: .5rem 1rem .5rem $color-black;
+        color: rgba($color-white, 1);
       }
     }
 
     &--sub {
       display: inline-block;
 
-      font-weight: 600;
-      font-size: 3.5rem;
+
+      font-weight: 100;
+      font-size: 2.8rem;
       text-shadow: 0 .25rem .5rem $color-black;
 
       a {
@@ -68,32 +71,32 @@ body {
   }
 
   &-tertiary {
+    padding: 2rem;
     font-size: 3rem;
     font-family: $logo-font;
     display: inline-block;
+    text-transform: uppercase;
   }
 }
 
 .heading-menu {
+  font-size: 6rem;
+  font-weight: 100;
+  font-family: $logo-font;
 
   &--main {
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 8rem;
+    font-size: 7rem;
     color: $color-black;
   }
 
   &--sub {
-    font-weight: 600;
+    font-weight: 100;
     font-size: 2rem;
     font-style: italic;
     color: $color-black;
-  }
-
-  & {
-    font-size: 6rem;
-    font-weight: 100;
-    font-family: $logo-font;
+    letter-spacing: -.05rem;
   }
 }
 
@@ -122,14 +125,14 @@ body {
 .list__text {
 
   &-heading {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 100;
     font-family: $logo-font;
     text-transform: uppercase;
   }
 
   &-primary {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 100;
     font-family: $logo-font;
     text-transform: uppercase;
